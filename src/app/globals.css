@@ -2,26 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#map {
+  clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0% 100%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.active-scroll-spy {
+  color: #ef4444;
+}
+
+.nav-anchor:hover span {
+  width: 100%;
+}
+
+/* About wavy background shapes */
+
+.custom-shape-divider-bottom-1701464368 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg) translateY(99%);
+}
+
+.custom-shape-divider-bottom-1701464368 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-bottom-1701464368 .shape-fill {
+  fill: #fecaca;
+}
+
+.custom-shape-divider-top-1701464422 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1701464422 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-top-1701464422 .shape-fill {
+  fill: #fecaca;
 }
