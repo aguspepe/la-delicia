@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import {
   Navbar,
@@ -92,25 +94,25 @@ export function Nav() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href='#home' data-to-scrollspy-id='home'>
+        <NavbarLink href='/#home' data-to-scrollspy-id='home'>
           Inicio
           <span className='absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 transition-all h-1 bg-red-500'></span>
         </NavbarLink>
-        <NavbarLink href='#products' data-to-scrollspy-id='products'>
+        <NavbarLink href='/#products' data-to-scrollspy-id='products'>
           Productos
           <span className='absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 transition-all h-1 bg-red-500'></span>
         </NavbarLink>
-        <NavbarLink href='#about' data-to-scrollspy-id='about'>
+        <NavbarLink href='/#about' data-to-scrollspy-id='about'>
           Nosotros
           <span className='absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 transition-all h-1 bg-red-500'></span>
         </NavbarLink>
         <NavbarLink
-          href='#water-process'
+          href='/#water-process'
           data-to-scrollspy-id='water-process'>
           Tratamiento
           <span className='absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 transition-all h-1 bg-red-500'></span>
         </NavbarLink>
-        <NavbarLink href='#contact' data-to-scrollspy-id='contact'>
+        <NavbarLink href='/#contact' data-to-scrollspy-id='contact'>
           Contacto
           <span className='absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 transition-all h-1 bg-red-500'></span>
         </NavbarLink>
