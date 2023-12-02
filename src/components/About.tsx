@@ -20,8 +20,8 @@ export const About = () => {
                 brindamos a nuestros clientes.
               </p>
             </div>
-            <div className='flex flex-wrap -m-4'>
-              <div className='xl:w-1/3 md:w-1/2 p-4'>
+            <div className='grid md:grid-cols-3 -m-4'>
+              <div className='p-4'>
                 <div className='bg-white p-6 rounded-lg'>
                   <div className='w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4'>
                     <Image
@@ -39,7 +39,7 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-              <div className='xl:w-1/3 md:w-1/2 p-4'>
+              <div className='p-4'>
                 <div className='bg-white p-6 rounded-lg'>
                   <div className='w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4'>
                     <Image
@@ -58,7 +58,7 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-              <div className='xl:w-1/3 md:w-1/2 p-4'>
+              <div className='p-4'>
                 <div className=' bg-white p-6 rounded-lg'>
                   <div className='w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4'>
                     <Image
