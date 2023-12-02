@@ -41,7 +41,7 @@ const customTheme: CustomFlowbiteTheme['navbar'] = {
     }
   },
   link: {
-    base: 'block py-2 px-1 md:p-0 relative nav-anchor w-fit',
+    base: 'block py-2 px-1 md:p-0 relative nav-anchor w-fit transition-colors duration-200 ease-in',
     active: {
       on: 'bg-red-700 text-white dark:text-white md:bg-transparent md:text-red-700',
       off: 'border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-red-700 md:dark:hover:bg-transparent md:dark:hover:text-white'
