@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
   title: 'La Delicia - Agua y Soda en La Plata y alrededores',
   description:
-    'Empresa de agua en La Plata comprometida con calidad y servicio desde 1957. Garantizamos acceso al agua envasada para la ciudad y sus alrededores.',
+    'Soderia, fábrica de agua en La Plata comprometida con calidad y servicio desde 1957. Garantizamos acceso al agua envasada para la ciudad y sus alrededores.',
   keywords:
-    'agua, soda, botellones, dispensers, cimes, La Plata, mineral, fábrica, distribuidora, retornables, descartables, frio, calor',
+    'agua, soda, soderia, botellones, dispensers, La Plata, mineral, fábrica, distribuidora, retornables, descartables, frio, calor',
   icons: {
     icon: './assets/logo.png'
   },
