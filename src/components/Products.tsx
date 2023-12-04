@@ -10,17 +10,34 @@ export const Products = () => {
       <Title>Productos</Title>
       <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-12 w-full text-center'>
         {products.map((product) => (
-          <div key={product.name} className='flex flex-col gap-2'>
+          <div
+            key={product.name}
+            className='flex flex-col gap-2'
+            itemScope
+            itemType='https://schema.org/Product'>
             <Image
               src={product.image}
               alt={product.name}
               width={400}
               height={400}
-              className='w-full h-96 object-cover object-center'></Image>
-            <h3 className='text-gray-900 title-font text-lg font-semibold'>
+              className='w-full h-96 object-cover object-center'
+              itemProp='image'></Image>
+            <h3
+              className='text-gray-900 title-font text-lg font-semibold'
+              itemProp='name'>
               {product.name}
             </h3>
-            <p>${product.price}</p>
+            <div
+              itemProp='offers'
+              itemScope
+              itemType='https://schema.org/Offer'>
+              <span itemProp='priceCurrency' content='ARS'>
+                $
+              </span>
+              <span itemProp='price' content='1000.00'>
+                {product.price}
+              </span>
+            </div>
             <a
               href='https://api.whatsapp.com/send/?phone=2215618323&text&type=phone_number&app_absent=0'
               target='_blank'
