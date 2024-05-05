@@ -1,22 +1,22 @@
 [
   {
     "name": "Bidón 20 litros",
-    "price": 2300,
+    "price": 2500,
     "image": "/assets/products/bidon20.webp"
   },
   {
     "name": "Bidón 12 litros",
-    "price": 1800,
+    "price": 2000,
     "image": "/assets/products/bidon12.webp"
   },
   {
     "name": "Bidón 8 litros",
-    "price": 1500,
+    "price": 1800,
     "image": "/assets/products/bidon8.webp"
   },
   {
     "name": "Dispenser de plástico",
-    "price": 5000,
+    "price": 6000,
     "image": "/assets/products/dispenser-plastico.webp"
   },
   {
