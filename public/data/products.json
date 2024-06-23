@@ -1,17 +1,17 @@
 [
   {
     "name": "Bidón 20 litros",
-    "price": 2500,
+    "price": 2800,
     "image": "/assets/products/bidon20.webp"
   },
   {
     "name": "Bidón 12 litros",
-    "price": 2000,
+    "price": 2300,
     "image": "/assets/products/bidon12.webp"
   },
   {
     "name": "Bidón 8 litros",
-    "price": 1800,
+    "price": 2000,
     "image": "/assets/products/bidon8.webp"
   },
   {
