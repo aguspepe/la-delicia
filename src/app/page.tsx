@@ -10,6 +10,7 @@ import ScrollSpy from 'react-ui-scrollspy'
 import { Products } from '@/components/Products'
 import { About } from '@/components/About'
 import { Whatsapp } from '@/components/Whatsapp'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </main>
       <Footer></Footer>
       <Whatsapp></Whatsapp>
+      <Analytics></Analytics>
     </>
   )
 }
