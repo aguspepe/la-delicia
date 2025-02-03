@@ -8,11 +8,11 @@ export const Products = () => {
       className='text-gray-600 body-font grid gap-12 max-w-7xl w-full px-4 m-auto my-12'
       id='products'>
       <Title>Productos</Title>
-      <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-12 w-full text-center'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-12 w-full text-center'>
         {products.map((product) => (
           <div
             key={product.name}
-            className='flex flex-col gap-2'
+            className='flex flex-col gap-2 bg-gray-100 overflow-hidden rounded-lg p-4'
             itemScope
             itemType='https://schema.org/Product'>
             <Image
@@ -20,7 +20,7 @@ export const Products = () => {
               alt={product.name}
               width={400}
               height={400}
-              className='w-full h-96 object-cover object-center'
+              className='w-full h-96 object-cover object-center rounded-lg bg-white'
               itemProp='image'></Image>
             <h3
               className='text-gray-900 title-font text-lg font-semibold'

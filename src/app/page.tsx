@@ -9,6 +9,7 @@ import { Contact } from '@/components/Contact'
 import ScrollSpy from 'react-ui-scrollspy'
 import { Products } from '@/components/Products'
 import { About } from '@/components/About'
+import { Whatsapp } from '@/components/Whatsapp'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         </ScrollSpy>
       </main>
       <Footer></Footer>
+      <Whatsapp></Whatsapp>
     </>
   )
 }

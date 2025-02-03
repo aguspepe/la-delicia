@@ -1,18 +1,23 @@
 [
   {
     "name": "Bidón 20 litros",
-    "price": 3500,
-    "image": "/assets/products/bidon20.webp"
+    "price": 4000,
+    "image": "/assets/products/20.webp"
   },
   {
     "name": "Bidón 12 litros",
-    "price": 3000,
-    "image": "/assets/products/bidon12.webp"
+    "price": 3500,
+    "image": "/assets/products/12.webp"
   },
   {
     "name": "Bidón 8 litros",
-    "price": 2500,
-    "image": "/assets/products/bidon8.webp"
+    "price": 3000,
+    "image": "/assets/products/8.webp"
+  },
+  {
+    "name": "Soda 1,5 litros",
+    "price": "800",
+    "image": "/assets/products/soda.webp"
   },
   {
     "name": "Dispenser de plástico",
@@ -21,12 +26,12 @@
   },
   {
     "name": "Dispensador frio/calor",
-    "price": 240000,
+    "price": 220000,
     "image": "/assets/products/dispenser.webp"
   },
   {
     "name": "Dispensador + 4 bidones",
-    "price": "20000 mensuales",
-    "image": "/assets/products/dispenser-bidones.webp"
+    "price": "30000 mensuales",
+    "image": "/assets/products/dispenser-4.webp"
   }
 ]

@@ -85,9 +85,9 @@ export function Nav() {
       <NavbarBrand href='/'>
         <Image
           alt='La delicia'
-          height={70}
-          src='/assets/logo.png'
-          width={70}
+          height={400}
+          src='/assets/logo.webp'
+          width={400}
           className={`w-auto object-cover h-12 transition-all ease-in duration-200 ${
             isScrolled ? 'md:h-16' : 'md:h-24'
           }`}></Image>
