@@ -1,12 +1,12 @@
 [
   {
     "name": "Bidón 20 litros",
-    "price": 4000,
+    "price": 4500,
     "image": "/assets/products/20.webp"
   },
   {
     "name": "Bidón 12 litros",
-    "price": 3500,
+    "price": 4000,
     "image": "/assets/products/12.webp"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "name": "Soda 1,5 litros",
-    "price": "800",
+    "price": "850",
     "image": "/assets/products/soda.webp"
   },
   {
