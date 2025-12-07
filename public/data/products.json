@@ -16,7 +16,7 @@
   },
   {
     "name": "Soda 1,5 litros",
-    "price": "900",
+    "price": "1000",
     "image": "/assets/products/soda.webp"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "name": "Dispensador + 4 bidones",
-    "price": "35000 mensuales",
+    "price": "40000 mensuales",
     "image": "/assets/products/dispenser-4.webp"
   }
 ]
